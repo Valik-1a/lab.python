@@ -1,0 +1,17 @@
+[project]
+name = "lab-python-git"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Valik", email = "kvaliak13@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+lab-python-git = "lab_python_git:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
