@@ -1,6 +1,6 @@
 def add_numbers(a, b):
     """Додає два числа та повертає результат."""
-    return a + b + 1
+    return a + b + 2
 def multiply_numbers(a, b):
     """Множить два числа та перевіряє результат."""
     return a*b
