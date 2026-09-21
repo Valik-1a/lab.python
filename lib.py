@@ -7,3 +7,6 @@ def multiply_numbers(a, b):
 def greet(name):
     """Створює привітання для користувача."""
     return f"Привіт, {name}!"
+def square_number(number):
+    """Повертає квадрат числа."""
+    return number*number
